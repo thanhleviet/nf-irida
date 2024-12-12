@@ -32,20 +32,22 @@ base_url = UPDATE_ME
 #### Single project
 ```bash
 nextflow run -c conf/env.config \
-main.nf \
+thanhleviet/nf-irida \
     --project "123" \
     --email "admin@example.com" \
-    --outdir "results"
+    --outdir "results" \
+    -profile conda
 ```
 #### Multiple projects
 
 ```bash
 nextflow run -c conf/env.config \
-main.nf \
+thanhleviet/nf-irida \
     --project "123,456,789" \
     --email "admin@example.com" \
     --outdir "results" \
-    --merge true
+    --merge true \
+    -profile conda
 ```
 
 ## Parameters
