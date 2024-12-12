@@ -56,6 +56,17 @@ thanhleviet/nf-irida \
 - `outdir`: The directory to save the output sample sheet.
 - `merge`: If true, merge results into a single sample sheet.
 
+## Output
+
+The output is a CSV file containing sample names and their associated FASTQ files.
+
+```
+sample_id,fastq1,fastq2
+sample1,file1_R1.fastq.gz,file1_R2.fastq.gz
+sample2,file2_R1.fastq.gz,file2_R2.fastq.gz
+sample3,file3_R1.fastq.gz,file3_R2.fastq.gz
+```
+
 ## Contributors
 
 - [@thanhleviet](https://github.com/thanhleviet)
