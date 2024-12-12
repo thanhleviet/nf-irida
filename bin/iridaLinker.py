@@ -284,7 +284,7 @@ class IRIDALinker:
         csv_path = os.path.join(output_dir, f"{project_name}_samples.csv")
         
         with open(csv_path, 'w') as f:
-            f.write("sampel_id,fastq1,fastq2\n")
+            f.write("sample_id,fastq1,fastq2\n")
             
             for sample in project_samples:
                 sample_id = sample['identifier']
